@@ -44,6 +44,9 @@
 <body>
 
 
+@include('Parcial.navbar')
+@yield('content')
+
     <!-- Scroll To Top -->
     <a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>
 
